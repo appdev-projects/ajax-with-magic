@@ -11,7 +11,7 @@
     </div>
 
     <div class="list-group list-group-flush mt-2">
-      <%= render @chat.messages %>
+      <%= render @chat.messages.order(:created_at) %>
 
       <div class="list-group-item">
         <%= render "messages/form", message: @chat.messages.build %>
