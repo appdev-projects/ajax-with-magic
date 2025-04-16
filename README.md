@@ -1,3 +1,3 @@
-# rails-8-template
+# ajax-with-magic
 
-For your AppDev-2 Projects!
+We're going to cast a spell to achieve real-time updates of all clients.
